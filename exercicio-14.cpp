@@ -17,10 +17,10 @@ main () {
 		scanf("%f", &numero);
 	}
 	
-	//printf("O número %.2f ao quadrado é: %.2f \n", numero, ());
-	//printf("O número %.2f ao cubo é: %.2f \n", numero, ());
+	printf("O número %.2f ao quadrado é: %.2f \n", numero, pow(numero, 2));
+	printf("O número %.2f ao cubo é: %.2f \n", numero, pow(numero, 3));
 	printf("A raiz quadrada de %.2f é: %.2f \n", numero, sqrt(numero));
-	//printf("A raiz cúbida de %.2f é: %.2f \n", numero, ());
+	printf("A raiz cúbida de %.2f é: %.2f \n", numero, cbrt(numero));
 	
 	getch();
 }
