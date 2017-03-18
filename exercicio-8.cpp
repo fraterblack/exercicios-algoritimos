@@ -17,16 +17,24 @@ main () {
 	printf("CADASTRO DO PROFESSOR \n\n");
 	
 	printf("Informe o nome: ");
-	scanf("%s", &nome);
+	//scanf("%s", &nome);
+	gets(nome);
+	fflush(stdin);
 	
 	printf("Informe o endereco: ");
-	scanf("%s", &endereco);
+	//scanf("%s", &endereco);
+	gets(endereco);
+	fflush(stdin);
 	
 	printf("Informe a cidade: ");
-	scanf("%s", &cidade);
+	//scanf("%s", &cidade);
+	gets(cidade);
+	fflush(stdin);
 	
 	printf("Informe o UF: ");
-	scanf("%s", &uf);
+	//scanf("%s", &uf);
+	gets(uf);
+	fflush(stdin);
 	
 	printf("Informe o CEP (Somente números): ");
 	scanf("%d", &cep);
@@ -38,16 +46,22 @@ main () {
 	scanf("%d", &cpf);
 	
 	printf("Informe o RG: ");
-	scanf("%s", &rg);
+	//scanf("%s", &rg);
+	gets(rg);
+	fflush(stdin);
 	
 	printf("Informe a data de nascimento (Somente números): ");
 	scanf("%d", &nascimento);
 	
 	printf("Informe o grau de escolaridade: ");
-	scanf("%s", &escolaridade);
+	//scanf("%s", &escolaridade);
+	gets(escolaridade);
+	fflush(stdin);
 	
 	printf("Informe o curso que leciona: ");
-	scanf("%s", &curso);
+	//scanf("%s", &curso);
+	gets(curso);
+	fflush(stdin);
 	
 	printf("\n\n Informacoes do cadastro do professor\n****************************************\n\n");
 	
